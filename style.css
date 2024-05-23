@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.box{
+    width: 350px;
+    height: 300px;
+    background-color: lightblue;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 900;
+    bottom: 20px;
+}
+.in input{
+    width: 90%;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: inset;
+}
+.add{
+    width: 80px;
+    height: 50px;
+    background-color:rgb(142, 212, 237);
+    border-radius: 10px;
+    font-size: 15px;
+}
+.modal {
+    padding: 30px;
+    position: fixed;
+    top: 20%;
+    left: 37%;
+    background-color: white;
+    box-shadow: 0px 3px 15px gray;
+    display: none;
+}
+
+table {
+    margin-top: 30px;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
